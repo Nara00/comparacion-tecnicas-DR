@@ -1,12 +1,12 @@
 # Comparación de Técnicas de Reducción de Dimensionalidad
 
-## Objetivo
-Evaluar y caracterizar las ventajas y desventajas de NeuralMap, UMAP y tSNE sobre bases de datos conocidas.
-
 ## Introducción
 Curse of Dimentionality refiere a los problemas que conlleva trabajar con datos en múltiples dimensiones. Los algoritmos de reducción de dimensionalidad (DR) mapean el conjunto de los datos a subespacios derivados del espacio original, de menor dimensión, que permiten hacer una descripción de los datos a un menor costo. Los métodos de DR pueden enfocarse en conservar las distancias entre los puntos de datos dentro de los clústeres (estructura local) o entre los clústeres (estructura global).
 
 El clustering consiste en separar un conjunto de datos en grupos que emergen naturalmente. De esta manera el algoritmo encuentra patrones y los datos caen naturalmente en ciertos grupos. Las técnicas de clustering aplicadas en el presente trabajo son HDBSCAN y k-means y las medidas externas para evaluar la agrupación rand score (medida de similitud entre dos agrupaciones de datos) y  adjusted mutual information score (medida de la dependencia mutua entre las dos variables).
+
+## Objetivo
+Evaluar y caracterizar las ventajas y desventajas de NeuralMap, UMAP y tSNE sobre bases de datos conocidas.
 
 ## Guía
 La base de datos sobre la que se realizó el presente trabajo es MNIST, primero se realizó un sampleo aleatorio manteniendo la distribución de las clases que se encuentra en el archivo _sample-mist-DF_.
